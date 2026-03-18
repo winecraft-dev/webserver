@@ -7,14 +7,14 @@ services:
     networks:
       - rproxy
   winecraft:
-    image: winecraft.dev:v0.1.3
+    image: winecraft.dev:v0.1.1
     restart: unless-stopped
     ports:
       - "8082:8080"
     networks:
       - rproxy
   connect4:
-    image: connect4.winecraft.dev:v0.1.0
+    image: connect4.winecraft.dev:v0.1.1
     restart: unless-stopped
     ports:
       - "8083:8080"
