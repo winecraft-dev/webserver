@@ -14,7 +14,7 @@ services:
     networks:
       - rproxy
   connect4:
-    image: connect4.winecraft.dev:v0.1.1
+    image: connect4.winecraft.dev:v4.1.0
     restart: unless-stopped
     ports:
       - "8083:8080"
