@@ -10,5 +10,6 @@ Let's use the following commands:
     docker compose run --rm certbot certonly --webroot --webroot-path /var/www/certbot -d jellothompson.com
     docker compose run --rm certbot certonly --webroot --webroot-path /var/www/certbot -d winecraft.dev
     docker compose run --rm certbot certonly --webroot --webroot-path /var/www/certbot -d connect4.winecraft.dev
+    docker compose run --rm certbot certonly --webroot --webroot-path /var/www/certbot -d photos.winecraft.dev
 
 Once these two steps pass, we can swap `ssl_setup.conf` with `working.conf`.
